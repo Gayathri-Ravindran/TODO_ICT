@@ -1,0 +1,48 @@
+*{
+padding : 0;
+margin : 0;
+background-color: aliceblue;
+}
+.todo-list{
+    font-size: 16px; /* Set font size */
+    font-weight: bold; /* Make the text bold */
+    color: #333; /* Set text color */
+    margin-bottom: 5px; /* Add space below each title */
+}
+.user{
+  color: blue;
+}
+#btn{
+  width: 50%;
+  background-color: black;
+  color: aliceblue;
+  border: 2px ;
+  height: 1.5em;
+}
+#btn:hover{
+  background-color:blueviolet;
+}
+#user, #pass{
+  padding: 5px;
+  place-items: center;
+}
+
+ul {
+  list-style-type: none; /* Remove default list styles */
+ 
+}
+
+
+li {
+  margin-bottom: 10px; /* Add space between list items */
+}
+
+
+input[type="checkbox"] {
+  margin-right: 150px; /* Add space between checkbox and label */
+  color: blue;
+}
+
+.checkbox-custom:checked {
+  background-color: blue;
+}
