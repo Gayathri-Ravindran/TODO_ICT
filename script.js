@@ -19,7 +19,7 @@ function login(user,pass,callback){
 }
 function display(isLoggedIn){
     if(isLoggedIn){
-        window.location.href = '/todo.html'; 
+        window.location.href = 'https://gayathri-ravindran.github.io/TODO_ICT/todo.html'; 
     }
     else
     {
